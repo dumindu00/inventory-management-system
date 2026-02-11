@@ -1,0 +1,15 @@
+# Ignore environments in any subfolder
+.env
+.env.local
+.venv/
+venv/
+ENV/
+
+# Ignore dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
